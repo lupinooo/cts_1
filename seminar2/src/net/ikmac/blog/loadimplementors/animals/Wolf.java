@@ -1,6 +1,6 @@
 package net.ikmac.blog.loadimplementors.animals;
 
-public class Wolf {
+public class Wolf implements Runner {
    private final int wolf_speed=30;
    
    public Wolf() {
@@ -12,9 +12,10 @@ public String toString() {
 	return "This is a wolf";
 }
 
+@Override
 public int getSpeed() {
+	// TODO Auto-generated method stub
 	return wolf_speed;
 }
-
-   
+  
 }
